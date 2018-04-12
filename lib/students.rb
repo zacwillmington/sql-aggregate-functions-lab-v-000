@@ -1,7 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-    "SELECT gpa FROM #{@db} ORDER BY gpa LIMIT 1;"
+    "SELECT gpa FROM @db ORDER BY gpa LIMIT 1;"
 end
 
 def lowest_student_gpa
